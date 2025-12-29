@@ -90,7 +90,7 @@ Perfect for those starting their Python journey. Focus on fundamentals like vari
 | 14 | [Countdown Timer](./Beginner_Level/Project-14) | Time Module, Loops, User Interface | ✅ |
 | 15 | [Digital Clock](./Beginner_Level/Project-15) | Tkinter, Time Module, GUI Basics | ✅ |
 | 16 | [Factorial Calculator](./Beginner_Level/Project-16) | Recursion, Mathematical Operations | ✅ |
-| 17 | [To-Do List (File Based)](./Beginner_Level/Project-17) | Lists, GUI , Storage | 🚧 |
+| 17 | [To-Do List (File Based)](./Beginner_Level/Project-17) | Lists, GUI , Storage | ✅ |
 | 18 | [Mad Libs Generator]() | String Formatting, User Input, Creativity | 🚧 |
 | 19 | [Hangman Game]() | ASCII , List , User Input, Creativity | 🚧 |
 | 20 | [Word Counter]() | File Operations, Text Processing | 🚧 |
