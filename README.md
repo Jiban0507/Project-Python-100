@@ -112,7 +112,7 @@ Build on fundamentals with API integration, web scraping, GUI development, and d
 
 | # | Project Name | Key Concepts | Status |
 |---|--------------|--------------|--------|
-| 1 | [Weather App](./Intermediate_Level/Project-10) | API Integration, JSON, GUI | ✅ |
+| 1 | [Weather App](./Intermediate_Level/Project-01) | API Integration, JSON, GUI | ✅ |
 | 2 | URL Shortener | Database, Hashing, Web Development | 🚧 |
 | 3 | QR Code Generator | Libraries, Image Processing | 🚧 |
 | 4 | Web Scraper | BeautifulSoup, Requests, HTML Parsing | 🚧 |
