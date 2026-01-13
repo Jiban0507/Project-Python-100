@@ -97,7 +97,7 @@ Perfect for those starting their Python journey. Focus on fundamentals like vari
 | 21 | [QR Code Generator](./Beginner_Level/Project-21) | Libraries , Image Path , Functions | ✅ |
 | 22 | [Currency Converter](./Beginner_Level/Project-22) | API Integration, JSON, Calculations | ✅ |
 | 23 | [Email Slicer](./Beginner_Level/Project-23) | Pattern Analysis, Email Detection, Function | ✅ |
-| 24 | [Simple & Compound Interest Calculator]() | Calculations, User Input, Formatting | 🔄 |
+| 24 | [Simple & Compound Interest Calculator](./Beginner_Level/Project-24) | Calculations, User Input, Formatting | ✅ |
 | 25 | [Typing Speed Test]() | Libraries , Functions , Calculation | 🔄 |
 | 26 | [Simple Quiz Game]() | Lists, Dictionaries, Scoring System | 🔄 |
 | 27 | [Text Analyzer]() | String Methods, File Reading, Statistics | 🔄 |
@@ -114,8 +114,8 @@ Build on fundamentals with API integration, web scraping, GUI development, and d
 |---|--------------|--------------|--------|
 | 1 | [Weather App](./Intermediate_Level/Project-01) | API Integration, JSON, GUI | ✅ |
 | 2 | [URL Shortener](./Intermediate_Level/Project-02) | Database, Hashing, Web Development | ✅ |
-| 3 | QR Code Generator | Libraries, Image Processing | 🔄 |
-| 4 | Web Scraper | BeautifulSoup, Requests, HTML Parsing | 🚧 |
+| 3 | [QR Code Generator](./Intermediate_Level/Project-03) | Libraries, Image Processing | ✅ |
+| 4 | Web Scraper | BeautifulSoup, Requests, HTML Parsing | 🔄 |
 | 5 | Email Sender | SMTP, Email Libraries, Automation | 🚧 |
 | 6 | Expense Tracker | Database, Data Visualization, Analysis | 🚧 |
 | 7 | Markdown to HTML Converter | Regex, File Operations, Parsing | 🚧 |
@@ -327,8 +327,8 @@ Expert (1-25)
 ## 📊 Project Status
 
 - **Total Projects Planned:** 100
-- **Completed:** 25
-- **In Progress:** 75
+- **Completed:** 27
+- **In Progress:** 73
 - **Last Updated:** January 2026
 
 ---
