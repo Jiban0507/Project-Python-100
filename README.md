@@ -117,7 +117,7 @@ Build on fundamentals with API integration, web scraping, GUI development, and d
 | 3 | [QR Code Generator](./Intermediate_Level/Project-03) | Libraries, Image Processing | ✅ |
 | 4 | [Web Scraper](./Intermediate_Level/Project-04) | BeautifulSoup, Requests, HTML Parsing | ✅ |
 | 5 | [Email Sender](./Intermediate_Level/Project-05) | SMTP, Email Libraries, Automation | ✅ |
-| 6 | [Expense Tracker]() | Database, Data Visualization, Analysis | 🔄 |
+| 6 | [Expense Tracker](./Intermediate_Level/Project-06) | Database, Data Visualization, Analysis | ✅ |
 | 7 | [Markdown to HTML Converter]() | Regex, File Operations, Parsing | 🔄 |
 | 8 | [Flashcard App]() | GUI, Data Persistence, Study Tool | 🔄 |
 | 9 | [Password Manager]() | Encryption, Security, Database | 🔄 |
