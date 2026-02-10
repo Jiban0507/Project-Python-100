@@ -117,16 +117,16 @@ Build on fundamentals with API integration, web scraping, GUI development, and d
 | 3 | [QR Code Generator](./Intermediate_Level/Project-03) | Libraries, Image Processing | ✅ |
 | 4 | [Web Scraper](./Intermediate_Level/Project-04) | BeautifulSoup, Requests, HTML Parsing | ✅ |
 | 5 | [Email Sender](./Intermediate_Level/Project-05) | SMTP, Email Libraries, Automation | ✅ |
-| 6 | [Expense Tracker]() | Database, Data Visualization, Analysis | 🔄 |
-| 7 | [Markdown to HTML Converter]() | Regex, File Operations, Parsing | 🔄 |
-| 8 | [Flashcard App]() | GUI, Data Persistence, Study Tool | 🔄 |
-| 9 | [Password Manager]() | Encryption, Security, Database | 🔄 |
-| 10 | [Pomodoro Timer]() | GUI, Time Management, Notifications | 🔄 |
+| 6 | [Expense Tracker](./Intermediate_Level/Project-06) | Database, Data Visualization, Analysis | ✅ |
+| 7 | [Markdown to HTML Converter](./Intermediate_Level/Project-07) | Regex, File Operations, Parsing | ✅ |
+| 8 | [Flashcard App](./Intermediate_Level/Project-08) | GUI, Data Persistence, Study Tool | ✅ |
+| 9 | [Password Manager](./Intermediate_Level/Project-09) | Encryption, Security, Database | 🔄 |
+| 10 | [Pomodoro Timer](./Intermediate_Level/Project-10) | GUI, Time Management, Notifications | ✅ |
 | 11 | [RSS Feed Reader](./Intermediate_Level/Project-11) | XML Parsing, Web Feeds, Display | ✅ |
-| 12 | [Image Resizer]() | PIL/Pillow, Batch Processing | 🚧 |
-| 13 | [YouTube Downloader]() | pytube, File Management | 🚧 |
-| 14 | [Snake Game]() | Pygame, Game Development | 🚧 |
-| 15 | [Chat Application]() | Sockets, Networking, Threading | 🚧 |
+| 12 | [Image Resizer]() | PIL/Pillow, Batch Processing | 🔄 |
+| 13 | [YouTube Downloader]() | pytube, File Management | 🔄 |
+| 14 | [Snake Game]() | Pygame, Game Development | 🔄 |
+| 15 | [Chat Application]() | Sockets, Networking, Threading | 🔄 |
 | 16 | [Typing Speed Test]() | GUI, Timing, Statistics | 🚧 |
 | 17 | [Sudoku Solver]() | Backtracking Algorithm, Recursion | 🚧 |
 | 18 | [Alarm Clock]() | Time Module, Audio, Threading | 🚧 |
