@@ -120,7 +120,7 @@ Build on fundamentals with API integration, web scraping, GUI development, and d
 | 6 | [Expense Tracker](./Intermediate_Level/Project-06) | Database, Data Visualization, Analysis | ✅ |
 | 7 | [Markdown to HTML Converter](./Intermediate_Level/Project-07) | Regex, File Operations, Parsing | ✅ |
 | 8 | [Flashcard App](./Intermediate_Level/Project-08) | GUI, Data Persistence, Study Tool | ✅ |
-| 9 | [Password Manager](./Intermediate_Level/Project-09) | Encryption, Security, Database | 🔄 |
+| 9 | [Password Manager](./Intermediate_Level/Project-09) | Encryption, Security, Database | ✅ |
 | 10 | [Pomodoro Timer](./Intermediate_Level/Project-10) | GUI, Time Management, Notifications | ✅ |
 | 11 | [RSS Feed Reader](./Intermediate_Level/Project-11) | XML Parsing, Web Feeds, Display | ✅ |
 | 12 | [Image Resizer](./Intermediate_Level/Project-12) | PIL/Pillow, Batch Processing | ✅ |
