@@ -123,7 +123,7 @@ Build on fundamentals with API integration, web scraping, GUI development, and d
 | 9 | [Password Manager](./Intermediate_Level/Project-09) | Encryption, Security, Database | 🔄 |
 | 10 | [Pomodoro Timer](./Intermediate_Level/Project-10) | GUI, Time Management, Notifications | ✅ |
 | 11 | [RSS Feed Reader](./Intermediate_Level/Project-11) | XML Parsing, Web Feeds, Display | ✅ |
-| 12 | [Image Resizer]() | PIL/Pillow, Batch Processing | 🔄 |
+| 12 | [Image Resizer](./Intermediate_Level/Project-12) | PIL/Pillow, Batch Processing | ✅ |
 | 13 | [YouTube Downloader]() | pytube, File Management | 🔄 |
 | 14 | [Snake Game]() | Pygame, Game Development | 🔄 |
 | 15 | [Chat Application]() | Sockets, Networking, Threading | 🔄 |
