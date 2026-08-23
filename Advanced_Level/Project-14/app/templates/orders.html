@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}My Orders — ShopFast{% endblock %}
+
+{% block content %}
+<div class="page">
+  <h1>My orders</h1>
+
+  {% if orders %}
+    <div class="order-list">
+      {% for order in orders %}
+        <div class="order-card">
+          <div class="order-header">
+            <a href="{{ url_for('orders.detail', order_id=order.id) }}">Order {{ order.id[:8] }}...</a>
+            <span class="status-badge status-{{ order.status }}">{{ order.status }}</span>
+          </div>
+          <p>{{ order.created_at.strftime('%b %d, %Y %I:%M %p') }}</p>
+          <ul>
+            {% for item in order.items %}
+              <li>{{ item.quantity }} × {{ item.name }} — ${{ "%.2f"|format(item.line_total) }}</li>
+            {% endfor %}
+          </ul>
+          <p class="order-total">Total: ${{ "%.2f"|format(order.total) }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>You haven't placed any orders yet.</p>
+  {% endif %}
+</div>
+{% endblock %}

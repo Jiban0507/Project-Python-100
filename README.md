@@ -157,7 +157,7 @@ Dive into complex applications with machine learning, data science, automation, 
 | 11 | [Voice Assistant](./Advanced_Level/Project-11) | Speech Recognition, Text-to-Speech | ✅ |
 | 12 | [Network Scanner](./Advanced_Level/Project-12) | Socket Programming, Security | ✅ |
 | 13 | [Blockchain Implementation](./Advanced_Level/Project-13) | Data Structures, Cryptography, Consensus | ✅ |
-| 14 | [E-commerce Platform](./Advanced_Level/Project-14) | Full-Stack, Payment Integration, Database | 🚧 |
+| 14 | [E-commerce Platform](./Advanced_Level/Project-14) | Full-Stack, Payment Integration, Database | ✅ |
 | 15 | [Real-Time Chat App](./Advanced_Level/Project-15) | WebSockets, Database, Authentication | 🚧 |
 | 16 | [Data Dashboard](./Advanced_Level/Project-16) | Plotly/Dash, Real-Time Updates | 🚧 |
 | 17 | [Code Plagiarism Detector](./Advanced_Level/Project-17) | NLP, Similarity Algorithms | 🚧 |
@@ -430,8 +430,8 @@ Expert (1-25)
 ## 📊 Project Status
 
 - **Total Projects Planned:** 106
-- **Completed:** 69
-- **In Progress:** 37
+- **Completed:** 70
+- **In Progress:** 36
 - **Last Updated:** August 2026
 
 ---

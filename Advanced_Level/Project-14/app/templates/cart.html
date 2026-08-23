@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Your Cart — ShopFast{% endblock %}
+
+{% block content %}
+<div class="page">
+  <h1>Your cart</h1>
+
+  {% if items %}
+    <div class="cart-list">
+      {% for product, quantity in items %}
+        <div class="cart-item">
+          <img src="{{ product.image_url }}" alt="{{ product.name }}">
+          <div class="cart-item-info">
+            <h3><a href="{{ url_for('products.detail', product_id=product.id) }}">{{ product.name }}</a></h3>
+            <p>${{ "%.2f"|format(product.price) }} each</p>
+          </div>
+          <form method="post" action="{{ url_for('cart.update', product_id=product.id) }}">
+            <input type="number" name="quantity" min="1" max="{{ product.stock }}" value="{{ quantity }}"
+                   onchange="this.form.submit()">
+          </form>
+          <p class="line-total">${{ "%.2f"|format(product.price * quantity) }}</p>
+          <form method="post" action="{{ url_for('cart.remove', product_id=product.id) }}">
+            <button type="submit" class="link-btn">Remove</button>
+          </form>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="cart-summary">
+      <h2>Total: ${{ "%.2f"|format(total) }}</h2>
+      <form method="post" action="{{ url_for('payments.checkout') }}">
+        <button type="submit">Checkout with Stripe</button>
+      </form>
+    </div>
+  {% else %}
+    <p>Your cart is empty. <a href="{{ url_for('products.home') }}">Browse products</a>.</p>
+  {% endif %}
+</div>
+{% endblock %}

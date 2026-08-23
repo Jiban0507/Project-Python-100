@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }} — ShopFast{% endblock %}
+
+{% block content %}
+<div class="page product-detail">
+  <img src="{{ product.image_url }}" alt="{{ product.name }}">
+  <div>
+    <h1>{{ product.name }}</h1>
+    <p class="price">${{ "%.2f"|format(product.price) }}</p>
+    <p>{{ product.description }}</p>
+    <p class="stock">{% if product.stock > 0 %}{{ product.stock }} in stock{% else %}Out of stock{% endif %}</p>
+
+    <form method="post" action="{{ url_for('cart.add', product_id=product.id) }}" class="quantity-row">
+      <input type="number" name="quantity" min="1" max="{{ product.stock }}" value="1">
+      <button type="submit" {% if product.stock == 0 %}disabled{% endif %}>Add to cart</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,129 @@
+:root {
+  --bg: #0f1115;
+  --surface: #171a21;
+  --border: #2a2f3a;
+  --text: #e6e6e6;
+  --muted: #9aa0ac;
+  --accent: #e8b84b;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; background: var(--bg); color: var(--text); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+button, input[type="submit"] {
+  background: var(--accent);
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.link-btn {
+  background: none;
+  color: var(--muted);
+  font-weight: 400;
+  padding: 0;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+}
+
+input, select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--border);
+}
+.brand { font-size: 20px; font-weight: 700; color: var(--text); }
+.nav-links { display: flex; gap: 20px; align-items: center; }
+.nav-user { color: var(--muted); }
+
+.page { max-width: 1100px; margin: 0 auto; padding: 32px; }
+
+.flash-container { max-width: 1100px; margin: 16px auto 0; padding: 0 32px; }
+.flash { padding: 10px 16px; border-radius: 6px; margin-bottom: 10px; font-size: 14px; }
+.flash-success { background: #1a3a2a; color: #3fb950; border: 1px solid #2a5a3a; }
+.flash-error { background: #3a1a1a; color: #f85149; border: 1px solid #5a2a2a; }
+
+.filters { display: flex; gap: 12px; margin-bottom: 24px; }
+.filters input { flex: 1; }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+.product-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+}
+.product-card img { width: 100%; border-radius: 8px; aspect-ratio: 1; object-fit: cover; }
+.product-card h3 { color: var(--text); margin: 10px 0 4px; font-size: 16px; }
+.price { color: var(--accent); font-weight: 700; }
+.stock { color: var(--muted); font-size: 13px; }
+.product-card form { margin-top: 8px; }
+.product-card button { width: 100%; }
+
+.product-detail { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.product-detail img { width: 100%; border-radius: 12px; }
+.quantity-row { display: flex; gap: 12px; margin-top: 16px; }
+.quantity-row input { width: 70px; }
+
+.cart-list { display: flex; flex-direction: column; gap: 14px; }
+.cart-item {
+  display: grid;
+  grid-template-columns: 60px 1fr 70px 80px auto;
+  align-items: center;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+.cart-item img { width: 60px; height: 60px; border-radius: 6px; object-fit: cover; }
+.cart-item input { width: 100%; }
+.line-total { font-weight: 700; }
+.cart-summary { margin-top: 24px; text-align: right; }
+
+.auth-page { max-width: 400px; }
+.auth-page form { display: flex; flex-direction: column; gap: 14px; }
+.auth-page label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: var(--muted); }
+
+.order-list { display: flex; flex-direction: column; gap: 16px; }
+.order-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.order-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.status-badge { padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+.status-pending { background: #e8b84b; color: #1a1a1a; }
+.status-paid { background: #3fb950; color: #0a1a0a; }
+.status-failed { background: #f85149; color: #1a0a0a; }
+.order-total { font-weight: 700; text-align: right; }
+
+.order-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+.order-table th, .order-table td { text-align: left; padding: 10px; border-bottom: 1px solid var(--border); }
+
+.order-success { text-align: center; }
+.order-success code { background: var(--surface); padding: 8px 12px; border-radius: 6px; display: inline-block; margin: 12px 0; }
