@@ -156,7 +156,7 @@ Dive into complex applications with machine learning, data science, automation, 
 | 10 | [Image Recognition Classifier](./Advanced_Level/Project-10) | TensorFlow/PyTorch, CNN, Training | ✅ |
 | 11 | [Voice Assistant](./Advanced_Level/Project-11) | Speech Recognition, Text-to-Speech | ✅ |
 | 12 | [Network Scanner](./Advanced_Level/Project-12) | Socket Programming, Security | ✅ |
-| 13 | [Blockchain Implementation](./Advanced_Level/Project-13) | Data Structures, Cryptography, Consensus | 🚧 |
+| 13 | [Blockchain Implementation](./Advanced_Level/Project-13) | Data Structures, Cryptography, Consensus | ✅ |
 | 14 | [E-commerce Platform](./Advanced_Level/Project-14) | Full-Stack, Payment Integration, Database | 🚧 |
 | 15 | [Real-Time Chat App](./Advanced_Level/Project-15) | WebSockets, Database, Authentication | 🚧 |
 | 16 | [Data Dashboard](./Advanced_Level/Project-16) | Plotly/Dash, Real-Time Updates | 🚧 |
@@ -430,8 +430,8 @@ Expert (1-25)
 ## 📊 Project Status
 
 - **Total Projects Planned:** 106
-- **Completed:** 68
-- **In Progress:** 38
+- **Completed:** 69
+- **In Progress:** 37
 - **Last Updated:** August 2026
 
 ---
