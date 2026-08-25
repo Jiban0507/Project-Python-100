@@ -1,0 +1,46 @@
+import socket
+common_ports = {
+    80: "HTTP",
+    443: "HTTPS",
+    22: "SSH",
+    21: "FTP",
+    445: "SMB"
+}
+def scan_ports():
+    target = input("Enter target IP or domain: ").strip()
+
+    # Resolve hostname to IP
+    try:
+        target_ip = socket.gethostbyname(target)
+    except socket.gaierror:
+        print("❌ Error: Invalid hostname or IP address")
+        return
+
+    print(f"\n🔍 Scanning target: {target_ip}\n")
+
+    # Scan ports
+    for port in range(1, 1025):
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(0.5)
+
+            result = s.connect_ex((target_ip, port))
+
+            if result == 0:
+                
+                service = common_ports.get(port, "Unknown")
+                print(f"✅ Port {port} ({service}) is OPEN")
+
+            s.close()
+
+        except KeyboardInterrupt:
+            print("\n⚠️ Scan stopped by user")
+            continue
+
+        except socket.error:
+            print("❌ Couldn't connect to server")
+            continue
+
+
+if __name__ == "__main__":
+    scan_ports()
